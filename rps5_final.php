@@ -1,5 +1,4 @@
 <?php
-//RPS_101_TABLE
 $weapons = [
     "DYNAMITE" => [
         "TORNADO",
@@ -13,7 +12,7 @@ $weapons = [
         "ROCK",
         "DEATH",
         "WALL",
-        "SUN",
+        "SUN	",
         "CAMERA",
         "FIRE",
         "CHAINSAW",
@@ -2058,7 +2057,7 @@ $weapons = [
         "PLANET",
         "GUITAR",
         "BOWL",
-        "HOLDER",
+        "CUP",
         "RUN",
         "RAIN",
         "WATER",
@@ -5252,7 +5251,8 @@ $weapons = [
     ],
 ];
 
-//FUNCTION
+$yourScore=0;
+$opponentScore=0;
 function displayAllWeapons()
 {
     global $weapons;
@@ -5260,44 +5260,53 @@ function displayAllWeapons()
         echo $weapon . " | ";
     }
 }
-
-//RUN
-echo "WELCOME, CHOOSE YOUR WEAPON : ";
-displayAllWeapons();
-echo"\n";
-$userWeapon = readline("");
-$userWeapon = strtoupper($userWeapon);
-
-$opponentWeapon = array_rand($weapons);
-//var_dump(array_key_exists($userWeapon,$weapons));
-//die();
-
-if (array_key_exists($userWeapon, $weapons)) {
-
-    for ($i = 1; $i <= 100; $i++) {
-        $opponentWeapon = array_rand($weapons);
-        echo "YOUR OPPONENT CHOSE : " . $opponentWeapon . "          \r";
-        //START FOR LOOP ALTER SPEED OF BLINK
-        //$speed=(10000+($i*5000));
-        //usleep($speed);
-        usleep(10000);
+do {
+    $victory = readline("Nombre de manches gagnées pour la victoire : \n");
+    $checkVictory = ctype_digit($victory);
+    if (!$checkVictory){
+        echo "Ce n'est pas un chiffre\n";
     }
+}while(!$checkVictory);
 
-    $winCondition = 0;
-    foreach ($weapons[$userWeapon] as $weapon) {
-        if ($weapon == $opponentWeapon ) {
-            $winCondition++;
-        }
-    }
-    if ($winCondition == 1) {
-        echo "\nYOU WON!";
-    } elseif ($userWeapon === $opponentWeapon) {
-        echo "\nDRAW!!!";
-    } else {
-        echo "\nYOU LOOSE!";
-    }
-
-} else {
-    echo "YOU MUST CHOOSE BETWEEN : ";
+while($yourScore<$victory and $opponentScore<$victory) {
+    echo "Fais ton choix ! (101 possibilités) \n";
     displayAllWeapons();
-};
+    echo "\n";
+    $userWeapon = readline("Tu choisis : \n");
+    $userWeapon = strtoupper($userWeapon);
+
+    if (array_key_exists($userWeapon, $weapons)) {
+        for ($i = 1; $i <= 100; $i++) {
+            $opponentWeapon = array_rand($weapons);
+            echo "Votre adversaire à choisi : " . $opponentWeapon . "     \r";
+            usleep(10000);
+        }
+        echo "\n";
+        $winCondition = 0;
+        foreach ($weapons[$userWeapon] as $weapon) {
+            if ($weapon == $opponentWeapon ) {
+                $winCondition++;
+            }
+        }
+        if ($winCondition == 1) {
+            echo "YOU WON!\n";
+            $yourScore++;
+        } elseif ($userWeapon == $opponentWeapon){
+            echo "DRAW\n";
+        } else {
+            echo "YOU LOOSE!\n";
+            $opponentScore++;
+        }
+    } else {
+        echo "tu dois choisir entre ces 101 signes \n ";
+        displayAllWeapons();
+        echo "\n";
+    };
+    echo "Ton score est de $yourScore et celui de ton adversaire de $opponentScore\n";
+    echo "\n";
+}
+if ($opponentScore == $victory){
+    echo "Game Over\n";
+} elseif ($yourScore == $victory){
+    echo "Félicitation, tu as gagné la partie !\n";
+}
