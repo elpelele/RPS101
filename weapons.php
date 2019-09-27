@@ -1,6 +1,6 @@
 <?php
 
-$WEAPONS = [
+$weapons = [
     "DYNAMITE" => [
         "TORNADO",
         "QUICKSAND",
@@ -104,7 +104,7 @@ $WEAPONS = [
         "COCKROACH",
         "BRAIN",
         ],
-    "QUICKSAND " => [
+    "QUICKSAND" => [
         "PIT",
         "CHAIN",
         "GUN",
@@ -154,7 +154,7 @@ $WEAPONS = [
         "BRAIN",
         "COMMUNITY",
         ],
-    "PIT " => [
+    "PIT" => [
         "CHAIN",
         "GUN",
         "LAW",
@@ -206,7 +206,7 @@ $WEAPONS = [
         "COMMUNITY",
         "CROSS",
     ],
-    "CHAIN " => [
+    "CHAIN" => [
         "GUN",
         "LAW",
         "WHIP",
@@ -258,7 +258,7 @@ $WEAPONS = [
         "CROSS",
         "MONEY",
         ],
-    "GUN " => [
+    "GUN" => [
         "LAW",
         "WHIP",
         "SWORD",
@@ -310,7 +310,7 @@ $WEAPONS = [
         "MONEY",
         "VAMPIRE",
         ],
-    "LAW " => [
+    "LAW" => [
         "WHIP",
         "SWORD",
         "ROCK",
@@ -362,7 +362,7 @@ $WEAPONS = [
         "VAMPIRE",
         "SPONGE",
         ],
-    "WHIP " => [
+    "WHIP" => [
         "SWORD",
         "ROCK",
         "DEATH",
@@ -414,7 +414,7 @@ $WEAPONS = [
         "SPONGE",
         "CHURCH",
         ],
-    "SWORD " => [
+    "SWORD" => [
         "STONE",
         "DEATH",
         "WALL",
@@ -466,7 +466,7 @@ $WEAPONS = [
         "CHURCH",
         "BUTTER",
         ],
-    "ROCK " => [
+    "ROCK" => [
         "DEATH",
         "WALL",
         "SUN",
@@ -518,7 +518,7 @@ $WEAPONS = [
         "BUTTER",
         "BOOK",
         ],
-    "DEATH " => [
+    "DEATH" => [
         "WALL",
         "SUN",
         "CAMERA",
@@ -570,7 +570,7 @@ $WEAPONS = [
         "BOOK",
         "PAPER",
         ],
-    "WALL " => [
+    "WALL" => [
         "SUN",
         "CAMERA",
         "FIRE",
@@ -622,7 +622,7 @@ $WEAPONS = [
         "PAPER",
         "CLOUD",
         ],
-    "SUN " => [
+    "SUN" => [
         "CAMERA",
         "FIRE",
         "CHAINSAW",
@@ -674,7 +674,7 @@ $WEAPONS = [
         "CLOUD",
         "AIRPLANE",
         ],
-    "CAMERA " => [
+    "CAMERA" => [
         "FIRE",
         "CHAINSAW",
         "SCHOOL",
@@ -726,7 +726,7 @@ $WEAPONS = [
         "AIRPLANE",
         "MOON",
         ],
-    "FIRE " => [
+    "FIRE" => [
         "CHAINSAW",
         "SCHOOL",
         "SCISSORS",
@@ -778,7 +778,7 @@ $WEAPONS = [
         "MOONLIGHT",
         "GRASS",
         ],
-    "CHAINSAW " => [
+    "CHAINSAW" => [
         "SCHOOL",
         "SCISSORS",
         "POISON",
@@ -830,7 +830,7 @@ $WEAPONS = [
         "GRASS",
         "FILM",
         ],
-    "SCHOOL " => [
+    "SCHOOL" => [
         "SCISSORS",
         "POISON",
         "CAGE",
@@ -882,7 +882,7 @@ $WEAPONS = [
         "FILM",
         "TOILET",
         ],
-    "SCISSORS " => [
+    "SCISSORS" => [
         "POISON",
         "CAGE",
         "AXE",
@@ -934,7 +934,7 @@ $WEAPONS = [
         "TOILET",
         "AIR",
         ],
-    "POISON " => [
+    "POISON" => [
         "CAGE",
         "AXE",
         "PEACE",
@@ -986,7 +986,7 @@ $WEAPONS = [
         "AIRBORNE",
         "PLANET",
         ],
-    "CAGE " => [
+    "CAGE" => [
         "AXE",
         "PEACE",
         "COMPUTER",
@@ -1038,7 +1038,7 @@ $WEAPONS = [
         "PLANET",
         "GUITAR",
         ],
-    "AXE "  => [
+    "AXE"  => [
         "PEACE",
         "COMPUTER",
         "CASTLE",
@@ -1090,7 +1090,7 @@ $WEAPONS = [
         "GUITAR",
         "BOWL",
         ],
-    "PEACE " => [
+    "PEACE" => [
         "COMPUTER",
         "CASTLE",
         "SNAKE",
@@ -1142,7 +1142,7 @@ $WEAPONS = [
         "BOWL",
         "CUP",
         ],
-    "COMPUTER " => [
+    "COMPUTER" => [
         "CASTLE",
         "SNAKE",
         "BLOOD",
@@ -1194,7 +1194,7 @@ $WEAPONS = [
         "CUP",
         "BEER",
         ],
-    "CASTLE " => [
+    "CASTLE" => [
         "SNAKE",
         "BLOOD",
         "PORCUPINE",
@@ -1246,7 +1246,7 @@ $WEAPONS = [
         "BEER",
         "RAIN",
         ],
-    "SNAKE " => [
+    "SNAKE" => [
         "BLOOD",
         "PORCUPINE",
         "VULTURE",
@@ -1350,7 +1350,7 @@ $WEAPONS = [
         "WATER",
         "TV",
         ],
-    "PORCUPINE " => [
+    "PORCUPINE" => [
         "VULTURE",
         "MONKEY",
         "KING",
@@ -1402,7 +1402,7 @@ $WEAPONS = [
         "TV",
         "RAINBOW",
         ],
-    "VULTURE " => [
+    "VULTURE" => [
         "MONKEY",
         "KING",
         "QUEEN",
@@ -1454,7 +1454,7 @@ $WEAPONS = [
         "RAINBOW",
         "UFO",
         ],
-    "MONKEY " => [
+    "MONKEY" => [
         "KING",
         "QUEEN",
         "PRINCE",
@@ -1506,7 +1506,7 @@ $WEAPONS = [
         "UFO",
         "ALIEN",
         ],
-    "KING " => [
+    "KING" => [
         "QUEEN",
         "PRINCE",
         "PRINCESS",
@@ -1558,7 +1558,7 @@ $WEAPONS = [
         "ALIEN",
         "PRAYER",
         ],
-    "QUEEN " => [
+    "QUEEN" => [
         "PRINCE",
         "PRINCESS",
         "POLICE",
@@ -1610,7 +1610,7 @@ $WEAPONS = [
         "PRAYER",
         "MOUNTAIN",
         ],
-    "PRINCE " => [
+    "PRINCE" => [
         "PRINCESS",
         "POLICE",
         "WOMAN",
@@ -1662,7 +1662,7 @@ $WEAPONS = [
         "MOUNTAIN",
         "SATAN",
         ],
-    "PRINCESS " => [
+    "PRINCESS" => [
         "POLICE",
         "WOMAN",
         "BABY",
@@ -1714,7 +1714,7 @@ $WEAPONS = [
         "SATAN",
         "DRAGON",
         ],
-    "POLICE " => [
+    "POLICE" => [
         "WOMAN",
         "BABY",
         "MAN",
@@ -1766,7 +1766,7 @@ $WEAPONS = [
         "DRAGON",
         "DIAMOND",
         ],
-    "WOMAN " => [
+    "WOMAN" => [
         "BABY",
         "MAN",
         "HOME",
@@ -1818,7 +1818,7 @@ $WEAPONS = [
         "DIAMOND",
         "PLATINUM",
         ],
-    "BABY " => [
+    "BABY" => [
         "MAN",
         "HOME",
         "TRAIN",
@@ -1870,7 +1870,7 @@ $WEAPONS = [
         "PLATINUM",
         "GOLD",
         ],
-    "MAN " => [
+    "MAN" => [
         "HOME",
         "TRAIN",
         "CAR",
@@ -1922,7 +1922,7 @@ $WEAPONS = [
         "GOLD",
         "DEVIL",
         ],
-    "HOME " => [
+    "HOME" => [
         "TRAIN",
         "CAR",
         "NOISE",
@@ -1974,7 +1974,7 @@ $WEAPONS = [
         "DEVIL",
         "FENCE",
         ],
-    "TRAIN " => [
+    "TRAIN" => [
         "CAR",
         "NOISE",
         "BICYCLE",
@@ -2026,7 +2026,7 @@ $WEAPONS = [
         "FENCE",
         "VIDEOGAME",
         ],
-    "CAR " => [
+    "CAR" => [
         "NOISE",
         "BICYCLE",
         "TREE",
@@ -2078,7 +2078,7 @@ $WEAPONS = [
         "VIDEOGAME",
         "CLASS",
         ],
-    "NOISE " => [
+    "NOISE" => [
         "BICYCLE",
         "TREE",
         "TURNIP",
@@ -2130,7 +2130,7 @@ $WEAPONS = [
         "MATH",
         "ROBOT",
         ],
-    "BICYCLE " => [
+    "BICYCLE" => [
         "TREE",
         "TURNIP",
         "DUCK",
@@ -2182,7 +2182,7 @@ $WEAPONS = [
         "ROBOT",
         "HEART",
         ],
-    "TREE " => [
+    "TREE" => [
         "TURNIP",
         "DUCK",
         "WOLF",
@@ -2234,7 +2234,7 @@ $WEAPONS = [
         "HEART",
         "ELECTRICITY",
         ],
-    "TURNIP " => [
+    "TURNIP" => [
         "DUCK",
         "WOLF",
         "CAT",
@@ -2286,7 +2286,7 @@ $WEAPONS = [
         "ELECTRICITY",
         "LIGHTNING",
         ],
-    "DUCK " => [
+    "DUCK" => [
         "WOLF",
         "CAT",
         "BIRD",
@@ -2338,7 +2338,7 @@ $WEAPONS = [
         "LIGHTNING",
         "MEDUSA",
         ],
-    "WOLF " => [
+    "WOLF" => [
         "CAT",
         "BIRD",
         "FISH",
@@ -2390,7 +2390,7 @@ $WEAPONS = [
         "MEDUSA",
         "POWER",
         ],
-    "CAT " => [
+    "CAT" => [
         "BIRD",
         "FISH",
         "SPIDER",
@@ -2442,7 +2442,7 @@ $WEAPONS = [
         "POWER",
         "DOT",
         ],
-    "BIRD " => [
+    "BIRD" => [
         "FISH",
         "SPIDER",
         "COCKROACH",
@@ -2494,7 +2494,7 @@ $WEAPONS = [
         "LASER",
         "NUKE",
         ],
-    "FISH " => [
+    "FISH" => [
         "SPIDER",
         "COCKROACH",
         "BRAIN",
@@ -2546,7 +2546,7 @@ $WEAPONS = [
         "NUKE",
         "SKY",
         ],
-    "SPIDER " => [
+    "SPIDER" => [
         "COCKROACH",
         "BRAIN",
         "COMMUNITY",
@@ -2598,7 +2598,7 @@ $WEAPONS = [
         "SKY",
         "TANK",
         ],
-    "COCKROACH " => [
+    "COCKROACH" => [
         "BRAIN",
         "COMMUNITY",
         "CROSS",
@@ -2650,7 +2650,7 @@ $WEAPONS = [
         "TANK",
         "HELICOPTER",
         ],
-    "BRAIN " => [
+    "BRAIN" => [
         "COMMUNITY",
         "CROSS",
         "MONEY",
@@ -2702,7 +2702,7 @@ $WEAPONS = [
         "HELICOPTER",
         "DYNAMITE",
         ],
-    "COMMUNITY " => [
+    "COMMUNITY" => [
         "CROSS",
         "MONEY",
         "VAMPIRE",
@@ -2754,7 +2754,7 @@ $WEAPONS = [
         "DYNAMITE",
         "TORNADO",
         ],
-    "CROSS " => [
+    "CROSS" => [
         "MONEY",
         "VAMPIRE",
         "SPONGE",
@@ -2806,7 +2806,7 @@ $WEAPONS = [
         "TORNADO",
         "QUICKSAND",
         ],
-    "MONEY " => [
+    "MONEY" => [
         "VAMPIRE",
         "SPONGE",
         "CHURCH",
@@ -2858,7 +2858,7 @@ $WEAPONS = [
         "QUICKSAND",
         "PIT",
         ],
-    "VAMPIRE " => [
+    "VAMPIRE" => [
         "SPONGE",
         "CHURCH",
         "BUTTER",
@@ -2910,7 +2910,7 @@ $WEAPONS = [
         "PIT",
         "CHAIN",
         ],
-    "SPONGE " => [
+    "SPONGE" => [
         "CHURCH",
         "BUTTER",
         "BOOK",
@@ -2962,7 +2962,7 @@ $WEAPONS = [
         "CHAIN",
         "GUN",
         ],
-    "CHURCH " => [
+    "CHURCH" => [
         "BUTTER",
         "BOOK",
         "PAPER",
@@ -3014,7 +3014,7 @@ $WEAPONS = [
         "GUN",
         "LAW",
         ],
-    "BUTTER " => [
+    "BUTTER" => [
         "BOOK",
         "PAPER",
         "CLOUD",
@@ -3066,7 +3066,7 @@ $WEAPONS = [
         "LAW",
         "WHIP",
         ],
-    "BOOK " => [
+    "BOOK" => [
         "PAPER",
         "CLOUDS",
         "AIRPLANES",
@@ -3118,7 +3118,7 @@ $WEAPONS = [
         "WHIP",
         "SWORDS",
         ],
-    "PAPER " => [
+    "PAPER" => [
         "CLOUD",
         "AIRPLANE",
         "MOON",
@@ -3170,7 +3170,7 @@ $WEAPONS = [
         "SWORD",
         "ROCK",
         ],
-    "CLOUD " => [
+    "CLOUD" => [
         "AIRPLANE",
         "MOON",
         "GRASS",
@@ -3222,7 +3222,7 @@ $WEAPONS = [
         "ROCK",
         "DEATH",
         ],
-    "AIRPLANE " => [
+    "AIRPLANE" => [
         "MOON",
         "GRASS",
         "FILM",
@@ -3326,7 +3326,7 @@ $WEAPONS = [
         "WALL",
         "SUN",
         ],
-    "GRASS " => [
+    "GRASS" => [
         "FILM",
         "TOILET",
         "AIR",
@@ -3378,7 +3378,7 @@ $WEAPONS = [
         "SUN",
         "CAMERA",
         ],
-    "FILM " => [
+    "FILM" => [
         "CAN",
         "AIR",
         "PLANET",
@@ -3430,7 +3430,7 @@ $WEAPONS = [
         "CAMERA",
         "FIRE",
         ],
-    "TOILET " => [
+    "TOILET" => [
         "AIR",
         "PLANET",
         "GUITARIST",
@@ -3482,7 +3482,7 @@ $WEAPONS = [
         "FIRE",
         "CHAINSAW",
         ],
-    "AIR " => [
+    "AIR" => [
         "PLANET",
         "GUITAR",
         "BOWL",
@@ -3534,7 +3534,7 @@ $WEAPONS = [
         "CHAINSAW",
         "SCHOOLKIDS",
         ],
-    "PLANET " => [
+    "PLANET" => [
         "GUITAR",
         "BOWL",
         "CUP",
@@ -3586,7 +3586,7 @@ $WEAPONS = [
         "SCHOOL",
         "SCISSORS",
         ],
-    "GUITAR " => [
+    "GUITAR" => [
         "BOWL",
         "CUP",
         "BEER",
@@ -3638,7 +3638,7 @@ $WEAPONS = [
         "SCISSORS",
         "POISON",
         ],
-    "BOWL " => [
+    "BOWL" => [
         "CUP",
         "BEER",
         "RAIN",
@@ -3690,7 +3690,7 @@ $WEAPONS = [
         "POISON",
         "CAGE",
         ],
-    "CUP " => [
+    "CUP" => [
         "BEER",
         "RAIN",
         "WATER",
@@ -3742,7 +3742,7 @@ $WEAPONS = [
         "CAGE",
         "AXE",
         ],
-    "BEER " => [
+    "BEER" => [
         "RAIN",
         "WATER",
         "TV",
@@ -3794,7 +3794,7 @@ $WEAPONS = [
         "AXE",
         "PEACE",
         ],
-    "RAIN " => [
+    "RAIN" => [
         "WATER",
         "TV",
         "RAINBOW",
@@ -3846,7 +3846,7 @@ $WEAPONS = [
         "PEACE",
         "COMPUTER",
         ],
-    "WATER " => [
+    "WATER" => [
         "TV",
         "RAINBOW",
         "UFO",
@@ -3898,7 +3898,7 @@ $WEAPONS = [
         "COMPUTER",
         "CASTLE",
         ],
-    "TV " => [
+    "TV" => [
         "RAINBOW",
         "UFO",
         "ALIEN",
@@ -3950,7 +3950,7 @@ $WEAPONS = [
         "CASTLE",
         "SNAKES",
         ],
-    "RAINBOW " => [
+    "RAINBOW" => [
         "UFO",
         "ALIEN",
         "PRAYER",
@@ -4002,7 +4002,7 @@ $WEAPONS = [
         "SNAKES",
         "BLOOD",
         ],
-    "UFO " => [
+    "UFO" => [
         "ALIEN",
         "PRAYER",
         "MOUNTAIN",
@@ -4054,7 +4054,7 @@ $WEAPONS = [
         "BLOOD",
         "PORCUPINE",
         ],
-    "ALIEN " => [
+    "ALIEN" => [
         "PRAYER",
         "MOUNTAIN",
         "SATAN",
@@ -4106,7 +4106,7 @@ $WEAPONS = [
         "PORCUPINE",
         "VULTURE",
         ],
-    "PRAYER " => [
+    "PRAYER" => [
         "MOUNTAIN",
         "SATAN",
         "DRAGON",
@@ -4158,7 +4158,7 @@ $WEAPONS = [
         "VULTURE",
         "MONKEY",
         ],
-    "MOUNTAIN " => [
+    "MOUNTAIN" => [
         "SATAN",
         "DRAGON",
         "DIAMOND",
@@ -4210,7 +4210,7 @@ $WEAPONS = [
         "MONKEY",
         "KING",
         ],
-    "SATAN " => [
+    "SATAN" => [
         "DRAGON",
         "DIAMOND",
         "PLATINUM",
@@ -4262,7 +4262,7 @@ $WEAPONS = [
         "KING",
         "QUEEN",
         ],
-    "DRAGON " => [
+    "DRAGON" => [
         "DIAMOND",
         "PLATINUM",
         "GOLD",
@@ -4314,7 +4314,7 @@ $WEAPONS = [
         "QUEEN",
         "PRINCE",
         ],
-    "DIAMOND " => [
+    "DIAMOND" => [
         "PLATINUM",
         "GOLD",
         "DEVIL",
@@ -4366,7 +4366,7 @@ $WEAPONS = [
         "PRINCE",
         "PRINCESS",
         ],
-    "PLATINUM " => [
+    "PLATINUM" => [
         "GOLD",
         "DEVIL",
         "FENCE",
@@ -4418,7 +4418,7 @@ $WEAPONS = [
         "PRINCESS",
         "POLICE",
         ],
-    "GOLD " => [
+    "GOLD" => [
         "DEVIL",
         "FENCE",
         "VIDEOGAME",
@@ -4470,7 +4470,7 @@ $WEAPONS = [
         "POLICE",
         "WOMAN",
         ],
-    "DEVIL " => [
+    "DEVIL" => [
         "FENCE",
         "VIDEOGAME",
         "MATH",
@@ -4522,7 +4522,7 @@ $WEAPONS = [
         "WOMAN",
         "BABY",
         ],
-    "FENCE " => [
+    "FENCE" => [
         "VIDEOGAME",
         "MATH",
         "ROBOT",
@@ -4574,7 +4574,7 @@ $WEAPONS = [
         "BABY",
         "MAN",
         ],
-    "VIDEOGAME " => [
+    "VIDEOGAME" => [
         "MATH",
         "ROBOT",
         "HEART",
@@ -4626,7 +4626,7 @@ $WEAPONS = [
         "MAN",
         "HOME",
         ],
-    "MATH " => [
+    "MATH" => [
         "ROBOT",
         "HEART",
         "ELECTRICITY",
@@ -4678,7 +4678,7 @@ $WEAPONS = [
         "HOME",
         "TRAINS",
         ],
-    "ROBOT " => [
+    "ROBOT" => [
         "HEART",
         "ELECTRICITY",
         "LIGHTNING",
@@ -4730,7 +4730,7 @@ $WEAPONS = [
         "TRAIN",
         "CAR",
         ],
-    "HEART " => [
+    "HEART" => [
         "ELECTRICITY",
         "LIGHTNING",
         "MEDUSA",
@@ -4782,7 +4782,7 @@ $WEAPONS = [
         "CAR",
         "NOISE",
         ],
-    "ELECTRICITY " => [
+    "ELECTRICITY" => [
         "LIGHTNING",
         "MEDUSA",
         "POWER",
@@ -4834,7 +4834,7 @@ $WEAPONS = [
         "NOISE",
         "BICYCLE",
         ],
-    "LIGHTNING " => [
+    "LIGHTNING" => [
         "MEDUSA",
         "POWER",
         "LASER",
@@ -4886,7 +4886,7 @@ $WEAPONS = [
         "BICYCLE",
         "TREE",
         ],
-    "MEDUSA " => [
+    "MEDUSA" => [
         "POWER",
         "LASER",
         "NUKE",
@@ -4938,7 +4938,7 @@ $WEAPONS = [
         "TREE",
         "TURNIP",
         ],
-    "POWER " => [
+    "POWER" => [
         "LASER",
         "NUKE",
         "SKY",
@@ -4990,7 +4990,7 @@ $WEAPONS = [
         "TURNIP",
         "DUCK",
         ],
-    "LASER " => [
+    "LASER" => [
         "NUKE",
         "SKY",
         "TANK",
@@ -5042,7 +5042,7 @@ $WEAPONS = [
         "DUCK",
         "WOLF",
         ],
-    "NUKE " => [
+    "NUKE" => [
         "SKY",
         "TANK",
         "HELICOPTER",
@@ -5094,7 +5094,7 @@ $WEAPONS = [
         "WOLF",
         "CAT",
         ],
-    "SKY " => [
+    "SKY" => [
         "TANK",
         "HELICOPTER",
         "DYNAMITE",
@@ -5146,7 +5146,7 @@ $WEAPONS = [
         "CAT",
         "BIRD",
         ],
-    "TANK " => [
+    "TANK" => [
         "HELICOPTER",
         "DYNAMITE",
         "TORNADO",
@@ -5198,7 +5198,7 @@ $WEAPONS = [
         "BIRD",
         "FISH",
         ],
-    "HELICOPTER " => [
+    "HELICOPTER" => [
         "DYNAMITE",
         "TORNADO",
         "QUICKSAND",
