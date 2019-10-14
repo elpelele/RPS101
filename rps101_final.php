@@ -5384,7 +5384,7 @@ while($yourScore<$victory and $opponentScore<$victory) {
     if (array_key_exists($userWeapon, $weapons)) {
         for ($i = 1; $i <= 100; $i++) {
             //RANDOM MACHINE
-            $randomNum = randomMachine(100);
+            $randomNum = randomMachine(100,1);
             $opponentWeapon = $weaponsIndex[$randomNum];
             echo "Votre adversaire à choisi : " . $opponentWeapon . "            \r";
             usleep(10000);
