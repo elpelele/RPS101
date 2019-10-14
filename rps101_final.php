@@ -1,4 +1,6 @@
 <?php
+include 'randomMachine.php';
+//ARRAY FOR WIN CONDITIONS
 $weapons = [
     "DYNAMITE" => [
         "TORNADO",
@@ -5250,6 +5252,110 @@ $weapons = [
         "SPIDER",
     ],
 ];
+//ARRAY FOR RANDOM MACHINE
+$weaponsIndex = [
+    "DYNAMITE",
+    "TORNADO",
+    "QUICKSAND",
+    "PIT",
+    "CHAIN",
+    "GUN",
+    "LAW",
+    "WHIP",
+    "SWORD",
+    "ROCK",
+    "DEATH",
+    "WALL",
+    "SUN",
+    "CAMERA",
+    "FIRE",
+    "CHAINSAW",
+    "SCHOOL",
+    "SCISSORS",
+    "POISON",
+    "CAGE",
+    "AXE",
+    "PEACE",
+    "COMPUTER",
+    "CASTLE",
+    "SNAKE",
+    "BLOOD",
+    "PORCUPINE",
+    "VULTURE",
+    "MONKEY",
+    "KING",
+    "QUEEN",
+    "PRINCE",
+    "PRINCESS",
+    "POLICE",
+    "WOMAN",
+    "BABY",
+    "MAN",
+    "HOME",
+    "TRAIN",
+    "CAR",
+    "NOISE",
+    "BICYCLE",
+    "TREE",
+    "TURNIP",
+    "DUCK",
+    "WOLF",
+    "CAT",
+    "BIRD",
+    "FISH",
+    "SPIDER",
+    "COCKROACH",
+    "BRAIN",
+    "COMMUNITY",
+    "CROSS",
+    "MONEY",
+    "VAMPIRE",
+    "SPONGE",
+    "CHURCH",
+    "BUTTER",
+    "BOOK",
+    "PAPER",
+    "CLOUD",
+    "AIRPLANE",
+    "MOON",
+    "GRASS",
+    "FILM",
+    "TOILET",
+    "AIR",
+    "PLANET",
+    "GUITAR",
+    "BOWL",
+    "CUP",
+    "BEER",
+    "RAIN",
+    "WATER",
+    "TV",
+    "RAINBOW",
+    "UFO",
+    "ALIEN",
+    "PRAYER",
+    "MOUNTAIN",
+    "SATAN",
+    "DRAGON",
+    "DIAMOND",
+    "PLATINUM",
+    "GOLD",
+    "DEVIL",
+    "FENCE",
+    "VIDEOGAME",
+    "MATH",
+    "ROBOT",
+    "HEART",
+    "ELECTRICITY",
+    "LIGHTNING",
+    "MEDUSA",
+    "POWER",
+    "LASER",
+    "NUKE",
+    "SKY",
+    "TANK",
+    "HELICOPTER",
+];
 
 $yourScore=0;
 $opponentScore=0;
@@ -5277,8 +5383,10 @@ while($yourScore<$victory and $opponentScore<$victory) {
 
     if (array_key_exists($userWeapon, $weapons)) {
         for ($i = 1; $i <= 100; $i++) {
-            $opponentWeapon = array_rand($weapons);
-            echo "Votre adversaire à choisi : " . $opponentWeapon . "     \r";
+            //RANDOM MACHINE
+            $randomNum = randomMachine(100);
+            $opponentWeapon = $weaponsIndex[$randomNum];
+            echo "Votre adversaire à choisi : " . $opponentWeapon . "            \r";
             usleep(10000);
         }
         echo "\n";
